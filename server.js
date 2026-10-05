@@ -759,7 +759,7 @@ function buildFactors(home, away, h2h, homeStats, awayStats) {
   add(
     15,
     'DÉFENSE',
-    'Fréquence d'encaissement',
+    "Fréquence d'encaissement",
     home.concedingFrequency !== null &&
     away.concedingFrequency !== null
       ? home.concedingFrequency - away.concedingFrequency
